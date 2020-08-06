@@ -1,0 +1,1 @@
+fairseq-batch-translate --path trainings/wmt17_zh_en/fconv/checkpoint_best.pt data-bin/wmt17_zh_en  --input  zh_input.txt -s zh -t en
